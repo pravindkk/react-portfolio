@@ -10,7 +10,7 @@ const Project = () => {
     return (
         <div className="section">
             <div className="container">
-                <div className="project-wrapper">
+                <div className="project-wrapper" id="projects">
                     <Fade bottom>
                         <h1 className="project-title">Projects</h1>
                     </Fade>
