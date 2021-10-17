@@ -33,7 +33,7 @@ const Timeline = () =>  {
                         element.buttonText !== ""
 
                     return(
-                        <VerticalTimelineElement
+                        <><VerticalTimelineElement
                             key={element.key}
                             date={element.date}
                             dateClassName="date"
@@ -48,18 +48,20 @@ const Timeline = () =>  {
                             </h5>
                             <p id="description">{element.description}</p>
                             {/* {showButton && (
-                                <a className={`button ${
-                                    isWorkIcon ? "workButton" : "schoolButton"
-                                }`}
-                                    href="/"
-                                >
-                                    {element.buttonText}
-                                </a>              
-                                )} */}
-                            
-                        </VerticalTimelineElement>
+        <a className={`button ${
+            isWorkIcon ? "workButton" : "schoolButton"
+        }`}
+            href="/"
+        >
+            {element.buttonText}
+        </a>
+        )} */}
+
+
+                        </VerticalTimelineElement><div className="timeline-spacer"></div></>
 
                     )
+                    
                 })}
             </VerticalTimeline>
         </div>
