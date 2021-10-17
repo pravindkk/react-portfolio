@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+
+@import "./navbar.css";
+@import "./mainpage.css";
+@import "./skills.css";
+@import "./about.css";
+@import "./contact.css";
+@import "./timeline.css";
+@import "./project.css";
+@import "./projects-backpage.css";
+
+* {
+    font-family: "Montserrat";
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.section {
+    width: 100vw;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-btn {
+    margin: 20px;
+    padding: 10px;
+    display: inline;
+    background-color: black;
+    color: white;
+    border: 0px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.primary-btn:hover {
+    transform: scale(1.1);
+}
+
+

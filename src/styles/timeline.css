@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+    }
+
+    .vertical-timeline-element-content {
+        position: absolute;
+        width: 70%;
+    }
+}
+/* 
+@media only screen and (max-width: 500px) {
+    * {
+        width: 100%;
+    }
+} */
+
+
+
+.custom-line.vertical-timeline.vertical-timeline--animate.vertical-timeline--two-columns::before {
+    background: gray;
+}
+
+.timeline-title {
+    margin-top: 40px;
+    font-size: 15em;
+    text-align: center;
+    font-size: 3rem;
+}

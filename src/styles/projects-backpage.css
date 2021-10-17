@@ -1,0 +1,55 @@
+.project-title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.paragraph {
+    display: flex;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.project-phone-screenshot-left {
+    max-width: 350px;
+    max-height: 625px;
+    width: auto;
+    height: auto;
+    padding-right: 1em;
+}
+
+.project-phone-screenshot-right {
+    max-width: 350px;
+    max-height: 625px;
+    width: auto;
+    height: auto;
+    padding-left: 1em;
+}
+
+.project-paragraph {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.paragraph.mobile {
+    display:block;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
+}
+
+.project-paragraph.mobile {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.project-phone-screenshot.mobile {
+    max-width: 3000px;
+    max-height: 536px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+

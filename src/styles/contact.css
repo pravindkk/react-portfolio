@@ -1,0 +1,40 @@
+.contact-container {
+    width: 80vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.contact-container h1 {
+    font-size: 3rem;
+    line-height: 20px;
+    text-align: center;
+}
+
+.email-link.desktop-email {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.email-link.mobile-email {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+} 
+
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icons {
+    margin-top: 20px;
+    height: 2rem;
+    margin: 10px;
+    
+}
