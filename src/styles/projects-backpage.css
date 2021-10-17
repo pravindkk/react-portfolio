@@ -31,8 +31,14 @@
     text-align: justify;
 }
 
+.project-title.mobile {
+    font-size: 4rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
 .paragraph.mobile {
-    display:block;
+    display: block;
     padding-left: 0.5em;
     padding-right: 1.5em;
 }
