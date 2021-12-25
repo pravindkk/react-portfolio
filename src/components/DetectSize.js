@@ -10,7 +10,7 @@ const Desktop = ({ children }) => {
 //   return isTablet ? children : null
 // }
 const Mobile = ({ children }) => {
-  const isMobile = useMediaQuery({ maxWidth: 400 })
+  const isMobile = useMediaQuery({ maxWidth: 500 })
   return isMobile ? children : null
 }
 

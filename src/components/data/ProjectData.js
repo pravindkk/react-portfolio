@@ -5,13 +5,18 @@ import ExpenseTrackerIcon from "../../images/project-images/expense-tracker.svg"
 export default {
     projects: [{
         title: "SafeEntry App with Map", 
-        imageSrc: TraceTogetherIcon,
+        // imageSrc: TraceTogetherIcon,
         url: "safe-entry-container",
         
     },
     {
+        title: "tuiBot",
+        // imageSrc: ExpenseTrackerIcon,
+        url: "tuibot-container",
+    },
+    {
         title: "Expense Tracker",
-        imageSrc: ExpenseTrackerIcon,
+        // imageSrc: ExpenseTrackerIcon,
         url: "expense-tracker-container",
     },
     // {

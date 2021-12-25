@@ -6,22 +6,25 @@ import { Desktop, Mobile } from "./DetectSize";
 import githubIcon from '../images/github.svg'
 import instagramIcon from '../images/instagram.svg'
 
-import data from './data/SocialData'
 
 const Contact = () => {
     return (
         <div className="section" id="contact">
             <div className="container">
                 <div className="contact-container">
-                    <Fade bottom cascade>
-                        <h1>Contact</h1>
-                    </Fade>
                     <Desktop>
+                        <Fade bottom cascade>
+                            <h1>Contact</h1>
+                        </Fade>
                         <a className="email-link desktop-email" href={`mailto:pravindkummar.k@gmail.com`}>
                             pravindkummar.k@gmail.com
                         </a>
                     </Desktop>
                     <Mobile>
+                        <div id="contact-spacer"></div>
+                        <Fade bottom cascade>
+                            <h1>Contact</h1>
+                        </Fade>
                         <a className="email-link mobile-email" href={`mailto:pravindkummar.k@gmail.com`}>
                             pravindkummar.k@gmail.com
                         </a>

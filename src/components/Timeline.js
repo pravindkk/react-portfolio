@@ -4,6 +4,7 @@ import React from "react"
 import Fade from 'react-reveal/Fade'
 import { ReactComponent as WorkIcon } from "../images/work.svg"
 import { ReactComponent as SchoolIcon } from "../images/school.svg"
+import { Mobile } from "./DetectSize"
 
 import timelineElements from "./data/TimelineData"
 
@@ -58,7 +59,7 @@ const Timeline = () =>  {
         )} */}
 
 
-                        </VerticalTimelineElement><div className="timeline-spacer"></div></>
+                        </VerticalTimelineElement><Mobile><div className="timeline-spacer"></div></Mobile></>
 
                     )
                     

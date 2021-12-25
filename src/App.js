@@ -26,7 +26,7 @@ const App = () => {
             </Desktop>
             <Mobile>
                 <div className="AppMobile" style={{
-                    width: "365px",
+                    width: "500px",
                 }}>
                     <Route exact path="/" component={Navbar} />
                     <Route exact path="/" component={Welcome} />

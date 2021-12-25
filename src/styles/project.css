@@ -22,14 +22,20 @@ h1.project-title {
 
 .content {
     opacity: 1 !important;
+    text-decoration: none !important;
 }
 
-.header, .header:link, .header:visited {
+.heading, .heading:link, .header:visited {
     padding-top: 1em;
-    font-size: 2rem;
+    font-size: 1,8rem;
     text-align: center;
     color: black;
     text-decoration: none !important;
+    transition: 0.3s;
+}
+
+.heading:hover {
+    font-size: 2rem;
 }
 
 

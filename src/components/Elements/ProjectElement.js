@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 const ProjectElement = ({ heading, paragraph, imgUrl, projectLink }) => {
-    var link = "/projects" + projectLink;
+    // var link = "/projects" + projectLink;
 
     return (
       <div
@@ -16,20 +15,9 @@ const ProjectElement = ({ heading, paragraph, imgUrl, projectLink }) => {
           opacity: 0.5
         }}
       >
-        <Link to={"/projects#" + projectLink}>
+        <Link to={"/projects/" + projectLink} className='heading'>
           <div className="content">
-            {/* <img src={TracetogetherIcon} alt="" /> */}
-            <h1 className="header">{heading}</h1>
-            {/* <p className="text">{paragraph}</p> */}
-            {/* <Link to="/projects">Projects</Link> */}
-            {/* <a
-              href={projectLink ? projectLink : "#"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn"
-            >
-              Explore
-            </a> */}
+            <h2 className="heading">{heading}</h2>
           </div>
         </Link>
       </div>
